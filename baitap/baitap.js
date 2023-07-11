@@ -90,14 +90,50 @@
 // let c= sum(10,20)
 // console.log('some c=',c)
 // console.log('some a+b=',sum(6,9))
-console.log('hello world from html');
+// console.log('hello world from html');
 
-function sum(x,y){
-    console.log('1')
-    console.log('2')
-    console.log('3')
-    console.log('4')
-    console.log('5')
-    return x+y;
+// function sum(x,y){
+//     console.log('1')
+//     console.log('2')
+//     console.log('3')
+//     console.log('4')
+//     console.log('5')
+//     return x+y;
+// }
+// console.log('check sum:',sum(9,7));
+// console.log('hello world from html');
+// //arrow function
+// function sum2(x,y){
+//     return x+y;
+// }
+// let sum=(a,b)=>{
+//     return a+b;
+// }
+// console.log('check sum',sum(6,9))
+// console.log('hello world from html');
+// let sum = (a,b) => {
+//     return a+b;
+// }
+// console.log('check sum=',sum(9,6))
+
+console.log('hello world from html')
+let sum=(a,b,callback)=>{
+    let tong=a+b;
+    // setTimeout(()=>{
+    //     callback(tong);
+    // },5000)
+    let i=0;
+    let timer=setInterval(()=>{
+        callback(tong);
+        i++
+        console.log('',i);
+        if(i===5) clearInterval(timer);
+    },1000)
+    
+    
 }
-console.log('check sum:',sum(9,7));
+let printsum=(message)=>{
+    console.log('6+9=',message)
+}
+
+sum(6,9,printsum)
