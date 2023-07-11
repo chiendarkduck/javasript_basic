@@ -30,11 +30,74 @@
 // ]
 // console.log(`my family:`,family);
 
-console.log(`hello word right now`)
-let a=5;
-let b='5';
-console.log(`compare a == b:`,`a=`,a,`b=`,b,`result:`,a==b)
-console.log(`compare a === b:`,`a=`,a,`b=`,b,`result:`,a===b)
+// console.log(`hello word right now`)
+// let a=5;
+// let b='5';
+// console.log(`compare a == b:`,`a=`,a,`b=`,b,`result:`,a==b)
+// console.log(`compare a === b:`,`a=`,a,`b=`,b,`result:`,a===b)
 
 //empty null undefined
-let c='';
+// let c='';
+//loop 
+// console.log(`hello world from html`)
+
+// let arr=['Mu','Mancity','Liver','chelsea']
+// for(var i=0; i<arr.length; i++){
+//     console.log(`print i=`,arr[i])
+// }
+// console.log(`check variable i=`,i)
+// console.log(`hello world from html`)
+
+// let arr=['Man City',' Mu',' Liverpool','Chelsea']
+// // for(let i=0;i<arr.length;i++){
+//     console.log('top',i+1,arr[i])
+// }
+// while
+// var i=0;
+// while(i<arr.length){
+//     console.log('top:',i+1,arr[i])
+//     i++
+
+// }
+
+//  do while
+// do{
+//     console.log('top',i+1,arr[i])
+// }while(i<0);
+// console.log('hello world from html')
+// let arr=['chien','dat','hoang','ngoc']
+// let i=0
+// while(i<arr.length){
+//     //if else condition
+//     console.log('check i:',i)
+//     if(arr[i]==='ngoc'){
+//         console.log('da tim thay',arr[i])
+//         break
+//     }
+//     i++
+// }
+// console.log('hello world from html')
+
+// for(let i=0;i<10;i++){
+//     console.log('>>> check variable 1:',i)
+// }
+
+//input parameter
+// console.log('hello world from html')
+// function sum(a,b){
+//     return a+b;
+// }
+// let c= sum(10,20)
+// console.log('some c=',c)
+// console.log('some a+b=',sum(6,9))
+console.log('hello world from html');
+
+function sum(x,y){
+    console.log('1')
+    console.log('2')
+    console.log('3')
+    console.log('4')
+    console.log('5')
+    return x+y;
+}
+console.log('check sum:',sum(9,7));
