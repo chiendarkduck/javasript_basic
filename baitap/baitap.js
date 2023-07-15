@@ -116,24 +116,67 @@
 // }
 // console.log('check sum=',sum(9,6))
 
-console.log('hello world from html')
-let sum=(a,b,callback)=>{
-    let tong=a+b;
-    // setTimeout(()=>{
-    //     callback(tong);
-    // },5000)
-    let i=0;
-    let timer=setInterval(()=>{
-        callback(tong);
-        i++
-        console.log('',i);
-        if(i===5) clearInterval(timer);
-    },1000)
+// console.log('hello world from html')
+// let sum=(a,b,callback)=>{
+//     let tong=a+b;
+//     // setTimeout(()=>{
+//     //     callback(tong);
+//     // },5000)
+//     let i=0;
+//     let timer=setInterval(()=>{
+//         callback(tong);
+//         i++
+//         console.log('',i);
+//         if(i===5) clearInterval(timer);
+//     },1000)
     
     
-}
-let printsum=(message)=>{
-    console.log('6+9=',message)
-}
+// }
+// let printsum=(message)=>{
+//     console.log('6+9=',message)
+// }
 
-sum(6,9,printsum)
+// sum(6,9,printsum)
+// console.log('hello world from html')
+
+// // filter, find
+
+// // let arr=['1','2','3','4','5','6','7','8','9','10']
+// let arr=[
+//     {name: 'chien',age: 21},
+//     {name: 'dat',age: 22},
+//     {name: 'hoang',age: 21},
+//     {name: 'ngoc',age: 23},
+//     {name: 'doan',age: 21},
+//     {name: 'phuong2',age: 25},
+// ]
+
+// let filter=arr.find((item,index)=>{
+//     console.log('check filter item:',item,'index:',index)
+//     return item && item.age===21;
+// });
+// console.log('filter',filter)
+// console.log('hello world from html')
+// let arr=['1','2','3','4','5','6','7','8','9','10']
+// // for(let i=0; i<arr.length; i++){
+// //     arr[i]=arr[i]*arr[i]
+// // }
+
+// let maparr=arr.map((item,index)=>{
+//     item=item*item;
+//     return item;
+// })
+// console.log('check i:',arr)
+// console.log('check i:',maparr)
+// console.log('hello world from html 3')
+
+// const array1 = [1, 30, 4, 21, 100000];
+// let arr=[]
+// array1.sort((item1,item2) => {
+//         if(item1>item2) arr.push(item1)
+//         console.log(arr)
+//     return item1-item2;
+// });
+// console.log(array1);
+// Expected output: Array [1, 100000, 21, 30, 4]
+console.log('hello world from html')
